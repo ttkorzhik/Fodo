@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Fodo/static/css/main.41a6a17d.css",
+    "main.js": "/Fodo/static/js/main.4c2ead48.js",
+    "static/media/c3.png": "/Fodo/static/media/c3.55f83414f33f66456b35.png",
+    "static/media/fi1.png": "/Fodo/static/media/fi1.3f43e51b6058550d1f44.png",
+    "static/media/f1.png": "/Fodo/static/media/f1.c52686695ee9a5c4cd0d.png",
+    "static/media/i1.png": "/Fodo/static/media/i1.3d9b129d2c5432c6f1fb.png",
+    "static/media/heroBg.png": "/Fodo/static/media/heroBg.c43c4862422e70d88698.png",
+    "static/media/delivery.png": "/Fodo/static/media/delivery.bf9130a0962fbe091abc.png",
+    "static/media/about.png": "/Fodo/static/media/about.018813d62968fc29c425.png",
+    "static/media/avatar.png": "/Fodo/static/media/avatar.68cdc4513e601d28a382.png",
+    "static/media/about2.png": "/Fodo/static/media/about2.827bd45e3e6f744fe303.png",
+    "static/media/emptyCart.svg": "/Fodo/static/media/emptyCart.71ad17e692d71caa77c6c9351f84756b.svg",
+    "static/media/NotFound.svg": "/Fodo/static/media/NotFound.4e90bb93460bfd8d9e2c86b42ef91a4a.svg",
+    "static/media/Frame.svg": "/Fodo/static/media/Frame.62ef36908ff89d938f78c5eb543f9ddb.svg",
+    "static/media/Cancel.svg": "/Fodo/static/media/Cancel.303b7cbeb825ddab50ae83a7bdba2588.svg",
+    "index.html": "/Fodo/index.html",
+    "static/media/Burger.svg": "/Fodo/static/media/Burger.f93779c4af3663c0ac24796b4720a6ef.svg",
+    "main.41a6a17d.css.map": "/Fodo/static/css/main.41a6a17d.css.map",
+    "main.4c2ead48.js.map": "/Fodo/static/js/main.4c2ead48.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41a6a17d.css",
+    "static/js/main.4c2ead48.js"
+  ]
+}
