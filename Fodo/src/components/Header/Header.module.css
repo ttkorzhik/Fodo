@@ -1,0 +1,152 @@
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 20px 60px;
+    background-color: #e8e6e6;
+}
+.rightBlockAdaptive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 45px;
+}
+.block {
+    display: flex;
+    justify-content: space-between;
+}
+.rightBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 45px;
+}
+.rightBlockAdaptive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0;
+}
+.userBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 45px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #1e1e1e;
+}
+.logoImg {
+    display: block;
+    object-fit: contain;
+    width: 60px;
+    height: 60px;
+}
+.headerText {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.basket {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.icon {
+    width: 24px;
+    height: 24px;
+}
+.quantity {
+    position: absolute;
+    top: -8px;
+    right: -2px;
+    border-radius: 100%;
+    width: 16px;
+    height: 16px;
+    background-color: #EB5757;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    line-height: 9px;
+    color: white;
+    font-weight: 500;
+}
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatar {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    cursor: pointer;
+    box-shadow: 0 0 4px rgba(0,0,0,0.5);
+}
+.user {
+    position: relative;
+}
+.userMenu {
+    width: 160px;
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(58, 54, 54, 0.5);
+}
+.btn {
+    display: flex;
+    background: none;
+    border: none;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 10px;
+}
+.addItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 10px;
+    color: #1e1e1e;
+}
+.addItem:hover, .btn:hover {
+    background-color: #ffffff;
+}
+
+@media screen and (max-width: 886px) {
+    .headerText {
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 763px) {
+    .header {
+        padding: 20px 30px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .userBlock {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 10px;
+    }
+}

@@ -1,0 +1,34 @@
+.item {
+    background-color: rgba(241, 241, 241, 0.61);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    max-width: 200px;
+    padding: 0 20px 20px 20px;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.itemImg {
+    width: 160px;
+    height: 160px;
+    display: block;
+    object-fit: cover;
+    margin-top: -60px;
+}
+.itemName, .itemPrice {
+    text-align: center;
+    font-weight: 600;
+}
+.itemDescription {
+    text-align: center;
+    color: #494444;
+}
+@media screen and (max-width: 947px) {
+    .item {
+        padding: 0 5px 5px 5px;
+    }
+
+}

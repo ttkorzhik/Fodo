@@ -1,0 +1,169 @@
+.createWrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    width: 50%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.wrong {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: #058505;
+    font-weight: 600;
+    background-color: #96e096;
+}
+.danger {
+    background-color: #ea7272;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    color: #ab0303;
+    padding: 10px;
+    border-radius: 10px;
+}
+.fastFoodName {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.iconFastFood {
+    color: #5e5a5a;
+    font-size: 24px;
+}
+.input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: #5e5a5a;
+    font-family: "Poppins", sans-serif;
+}
+.input::placeholder {
+    font-family: "Poppins", sans-serif;
+    color: #5e5a5a;
+}
+.categories {
+    width: 100%;
+}
+.select {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #5e5a5a;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+}
+.option {
+    text-transform: capitalize;
+    background-color: white;
+    color: #5e5a5a;
+    font-family: "Poppins", sans-serif;
+}
+.description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 225px;
+}
+.label, .assets {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+}
+.iconUpload, .iconDelete {
+    color: #5e5a5a;
+    font-size: 40px;
+    transition: 0.3s;
+}
+.iconUpload:hover, .textUpload:hover {
+    color: #252525;
+}
+.textUpload {
+    color: #5e5a5a;
+    font-weight: 500;
+    font-size: 18px;
+}
+.uploadedImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.inputFile {
+    width: 0;
+    height: 0;
+}
+.withAsset {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.buttonForDelete {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+.buttonForDelete:hover {
+    box-shadow: 0 0 10px rgba(66, 64, 62, 0.5);
+}
+.iconDelete {
+    font-size: 36px;
+}
+.forButton {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.submit {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #31b982;
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 10px;
+}

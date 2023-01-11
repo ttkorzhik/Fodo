@@ -1,0 +1,193 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.leftBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 297px;
+}
+.rightBlock {
+    display: flex;
+    gap: 80px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.text {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    padding-right: 10px;
+}
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.socialLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.svg {
+    fill: #EB5757;
+    transition: 0.3s;
+}
+.socialLink:hover .svg {
+    fill: #efa6a6;
+}
+.title, .titleMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    height: 60px;
+}
+.navBlock, .getTouch {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.navItem {
+    cursor: pointer;
+    transition: 0.3s;
+    color: #2e3033;
+    font-weight: 500;
+}
+.navItem:hover  {
+    color: #EB5757;
+}
+.email {
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+}
+.input {
+    padding: 15px 15px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600;
+    color: #232525;
+    text-decoration: none;
+    background-color: white;
+    outline: none;
+}
+.input:focus {
+    box-shadow: 0 0 4px rgba(169, 162, 162, 0.5);
+
+}
+.btn {
+    position: absolute;
+    top: 17px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 810px) {
+    .rightBlock {
+        display: flex;
+        gap: 40px;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 886px) {
+    .rightBlock {
+        display: flex;
+        gap: 40px;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .nav, .titleMenu {
+        display: none;
+    }
+}
+@media screen and (max-width: 763px) {
+    .title, .titleMenu {
+        font-size: 20px;
+    }
+    .text {
+        font-size: 14px;
+        padding-right: 0;
+    }
+    .leftBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        max-width: 297px;
+    }
+    .email {
+        margin-top: 15px;
+    }
+    .rightBlock {
+        gap: 0;
+    }
+    .getTouch {
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 545px) {
+    .wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    .leftBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .rightBlock {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .getTouch {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+    .text {
+        text-align: center;
+    }
+    .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        font-weight: bold;
+        height: auto;
+    }
+}

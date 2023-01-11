@@ -1,0 +1,120 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    width: 100%;
+}
+.block {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+}
+.delivery {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    background-color: #f9a685;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+.blockImg {
+    border-radius: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+.img {
+    display: block;
+    object-fit: contain;
+    width: 40px;
+    height: 40px;
+}
+.deliveryText {
+    color: white;
+    font-weight: 600;
+}
+.title {
+    text-transform: capitalize;
+    font-size: 2.7rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.span {
+    color: #EB5757;
+    font-size: 3rem;
+}
+.text {
+    color: #7c7474;
+}
+.button {
+    background: linear-gradient(90deg, #EB5757 0%, #e16161, #e56161 100%);
+    padding: 15px;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    width: 160px;
+}
+.button:hover {
+    box-shadow: 0 0 10px #e16161;
+}
+.rightBlock {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    position: relative;
+}
+.back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.backImg {
+    height: 650px;
+}
+.goods {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 20%;
+    column-gap: 10px;
+    padding: 32px 10px;
+}
+@media screen and (max-width: 1203px) {
+    .goods {
+        padding: 0;
+        left: 0;
+        column-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 939px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .goods {
+        padding: 0;
+        left: 0;
+        column-gap: 10px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .backImg {
+        width: 350px;
+    }
+}

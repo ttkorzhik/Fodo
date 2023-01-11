@@ -1,0 +1,114 @@
+.menu {
+    width: 100%;
+    padding-top: 100px;
+}
+.menuBlock {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    position: relative;
+    padding-bottom: 5px;
+    margin-right: auto;
+}
+.title:before {
+    position: absolute;
+    content: "";
+    border-radius: 10px;
+    width: 100px;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, #EB5757 0%, rgb(253, 102, 16) 47%, rgba(255,172,0,1) 100%);
+    transition: 0.3s;
+}
+.filter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.filter::-webkit-scrollbar {
+    width: 0;
+}
+.filterItem {
+    width: 120px;
+    min-width: 120px;
+    height: 140px;
+    border-radius: 10%;
+    box-shadow: 0 0 5px #e4d0d0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.active {
+    background-color: #EB5757;
+}
+.default {
+    background-color: #e1dede;
+}
+.filterItem:hover {
+    background-color: #EB5757;
+}
+.filterItem:hover .inner{
+    background-color: #e1dede;
+}
+.filterItem:hover .icon{
+    color: #5e5a5a;
+}
+.filterItem:hover .filterName{
+    color: #e1dede;
+}
+.inner {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.inner:hover {
+    background-color: #e1dede;
+}
+.icon {
+    font-size: 24px;
+}
+.filterName {
+    font-weight: 400;
+}
+.activeText {
+    color: #e1dede;
+}
+.defaultText {
+    color: #5e5a5a;
+}
+.filteredGoods {
+    width: 100%;
+}
+@media screen and (max-width: 1148px) {
+    .filter {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        justify-content: normal;
+        margin-top: 30px;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+    }
+}

@@ -1,0 +1,105 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+    align-items: center;
+    gap: 13px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.wrapperScroll {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    height: 100%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.wrapperScroll::-webkit-scrollbar {
+    width: 0;
+}
+.block {
+    min-width: 350px;
+    width: 300px;
+    background-color: #e1dede;
+    border-radius: 30px;
+    margin-top: 30px;
+    transition: 0.3s;
+    padding: 0 15px 15px 15px;
+}
+.block:hover {
+    box-shadow: 0 0 10px #ded5d5;
+}
+.item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.img {
+    width: 180px;
+    height: 130px;
+    margin-top: -10px;
+    object-fit: contain;
+    z-index: 8;
+}
+.basket {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #EB5757;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.basket:hover {
+    box-shadow: 0 0 5px rgb(150, 59, 59);
+}
+.basketIcon {
+    font-size: 16px;
+    color: white;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.name {
+    font-weight: 600;
+}
+.calories {
+    font-weight: 400;
+    color: #5e5a5a;
+}
+.price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.dollar {
+    font-weight: 600;
+    font-size: 14px;
+    color: #EB5757;
+    padding-right: 3px;
+}
+.notFound {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.notFoundText {
+    font-size: 24px;
+    font-weight: bold;
+}
+.notFoundImg {
+    width: 400px;
+    height: 320px;
+}
